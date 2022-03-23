@@ -6,15 +6,15 @@ function App() {
     <div className="App">
       <header className='app-header'>
         <div>
-          <h1>Person Name</h1>
+          <h1>Alexander Christopher Islip</h1>
         </div>
       </header>
       <body className="app-body">
         <div>
-           <BodyContainer/>
-           <BodyContainer/>
-           <BodyContainer/>
-           <BodyContainer/>
+           <BodyContainer title="Biography"/>
+           <BodyContainer title="Hard Skills"/>
+           <BodyContainer title="Resume"/>
+           <BodyContainer title="Portfolio"/>
         </div>
       </body>
 

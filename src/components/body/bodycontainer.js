@@ -1,9 +1,9 @@
 import '../body/bodycontainer.css';
 
-function BodyContainer() {
+function BodyContainer(props) {
     return (
       <div className="bodycontainer">
-        <h3>Title</h3>
+        <h3>{props.title}</h3>
         <div>
             <p>Body Content</p>
         </div>
