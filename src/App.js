@@ -20,7 +20,7 @@ function App() {
 
       <footer className='app-footer'>
         <div>
-          <h3>Footer</h3>
+          <h3>I love you malou</h3>
         </div>
       </footer>
     </div>

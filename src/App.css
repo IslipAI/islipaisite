@@ -8,11 +8,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: calc(10px + 2vh);
-  color:rgb(238, 29, 82);
+  font-size: calc(5px + 3vh);
+  color:rgb(37, 244, 238);
+  border-bottom-style: solid;
 }
 
 .app-body {
+  margin-top: 2.5vh;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,11 +30,12 @@
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  border-top-style: solid;
 }
 
 /* width */
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 2px;
 }
 
 /* Track */
@@ -46,5 +49,5 @@
 }
 
 h1{
-  text-shadow: 1px 1px rgb(255, 255, 255);
+  text-shadow: 3px 3px 1px rgb(238, 29, 82);
 }
