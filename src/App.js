@@ -9,14 +9,14 @@ function App() {
           <h1>Alexander Christopher Islip</h1>
         </div>
       </header>
-      <body className="app-body">
+      <div className="app-body">
         <div>
-           <BodyContainer title="Biography"/>
-           <BodyContainer title="Hard Skills"/>
-           <BodyContainer title="Resume"/>
-           <BodyContainer title="Portfolio"/>
+           <BodyContainer title="Biography" containerId="biography"/>
+           <BodyContainer title="Hard Skills" containerId="hardskills"/>
+           <BodyContainer title="Resume" containerId="resume"/>
+           <BodyContainer title="Portfolio" containerId="portfolio"/>
         </div>
-      </body>
+      </div>
 
       <footer className='app-footer'>
         <div>
